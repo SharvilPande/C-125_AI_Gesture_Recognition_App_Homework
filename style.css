@@ -1,0 +1,43 @@
+.heading{
+    width: 100%;
+    background-color: rgb(236, 133, 15);
+    color: white;
+    border-radius: 20px;
+    top: 0;
+    position: absolute;
+    box-shadow: 5px 7px 15px rgb(2, 2, 85);
+}
+
+marquee{
+    font-size: medium;
+    background-color: firebrick;
+    border-radius: 10px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.footer{
+    line-height: 3;
+    position: fixed;
+    background-color: rgb(236, 133, 15);
+    bottom: 0;
+    color: black;
+    width: 100%;
+    border: 8px ridge rgb(33, 207, 155);
+    text-align: center;
+    font-size: 16px;
+}
+
+canvas{
+    border: 12px groove darkblue;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    from {box-shadow: 5px 5px 10px yellow;}
+    to {box-shadow: 5px 5px 10px rgb(96, 243, 12);}
+}
